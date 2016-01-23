@@ -1,0 +1,23 @@
+{
+  "name": "jonnew.com",
+  "version": "1.0.0",
+  "description": "Homepage",
+  "main": "index.app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newtang/jonnew.com.git"
+  },
+  "author": "Jon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newtang/jonnew.com/issues"
+  },
+  "homepage": "https://github.com/newtang/jonnew.com#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nconf": "^0.8.2"
+  }
+}
