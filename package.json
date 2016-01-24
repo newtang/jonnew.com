@@ -8,7 +8,7 @@
     "npm": "2.12.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.app.js"
   },
   "repository": {
     "type": "git",
