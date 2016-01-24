@@ -7,7 +7,7 @@ nconf.env().file({file: ".env"});
 var port = nconf.get("PORT");
 
 app.get('*', function(req, res) {
-  res.send('The impossible is possible at jonnew.com' + req.originalUrl);
+  res.send('The impossible is possible at ' + req.get('host') + req.originalUrl);
 });
 
 app.listen(port, function() {
